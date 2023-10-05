@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#outer{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    align-items: center;
+}
+#outer div{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+#data{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+}
+
+#name , #name2{
+    color: aliceblue;
+    font-size: 3rem;
+    font-family: monospace;
+}
+
+#photo{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/Dr.Apj\ abdul\ kalam.webp);
+    
+}
+
+#dob{
+    color: aliceblue;
+    font-family: monospace;
+    font-size: 2rem;
+}
+
+#data1{
+    width: 90vw;
+    height: 100vh;
+}
+
+#bio{
+    width: 60vw;
+    height: 100vh;
+}
+
+p{
+   color: azure;
+   font-family: monospace;
+   line-height: 1.5rem;
+   font-size: 1rem;
+}
